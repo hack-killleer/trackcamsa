@@ -1,0 +1,76 @@
+.sub-nav, .site-header,.footer-main {
+    background: linear-gradient(45deg, #8a4b7d, #40babe);
+}
+body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header) a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'FontAwesome';
+}
+.sicon-user:before ,.site-header__cart,.salla-theme_5 .footer-main .social__item a,.store-contact a{
+    color: white;
+}
+/* Add custom CSS styles below */ 
+
+body,section:first-of-type,section.u-white.py-4 {
+    background: #f2f2f2 !important;
+}
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-right: 0rem !important;
+}
+.lazy__bg.lazy.entered.loaded {
+    width: 100%;
+    display: block;
+    height: 100px;
+    background-position: center;
+}
+/* categoryyy//////////////// */ 
+.row:has(.category-featured.category-featured--no-label){
+    display: flex;
+    flex-wrap: wrap;
+}
+.lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ .banner--fixed img {
+    background: #faebd700;
+}   
+
+.row:has(.category-featured.category-featured--no-label) .col-sm-4.col-md-4 {
+    width: 47%;
+    background: #f9fafb00;
+}
+    
+/* Media Query for Mobile Devices */ 
+ @media (max-width: 480px) { 
+            
+  } 
+/* Media Query for low resolution  Tablets, Ipads */ 
+       
+@media (min-width: 481px) and (max-width: 767px) { 
+  
+ }
+ 
+ .col-sm-6.col-md-4.col-lg-3.slick-slide {
+    width: 100% !important;
+}
+.product.contain {
+    width: 100% !important;
+}
+ 
+ @keyframes heartbeat {
+  0% {
+    transform: scale(1 );
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1 );
+  }
+}
+
+.logo {
+  animation: heartbeat 1.5s infinite; /* Adjust the duration as needed */
+}
