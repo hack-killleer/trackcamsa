@@ -44,7 +44,9 @@ body,section:first-of-type,section.u-white.py-4 {
     
 /* Media Query for Mobile Devices */ 
  @media (max-width: 480px) { 
-            
+      body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header) a {
+    color: #000;
+}      
   } 
 /* Media Query for low resolution  Tablets, Ipads */ 
        
